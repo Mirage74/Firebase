@@ -58,9 +58,6 @@ class MainActivity : AppCompatActivity() {
             }
     }
 
-    fun emn () {
-
-    }
 
     private fun loginUser(email: String, password: String) {
         auth.signInWithEmailAndPassword(email, password)
