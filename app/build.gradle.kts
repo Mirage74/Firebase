@@ -52,6 +52,9 @@ dependencies {
     implementation(libs.androidx.constraintlayout)
 
     implementation(platform(libs.firebase.bom))
+    implementation("com.google.firebase:firebase-auth")
+    implementation("com.google.firebase:firebase-firestore")
+
 
 
     testImplementation(libs.junit)
